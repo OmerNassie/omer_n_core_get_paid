@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# core-home-assignment
+As we discussed, we'll be happy if you can develop a quick prototype that will help us see you in action :)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## General idea
+The idea is to have a short brief, of work, and an as-effective-as-possible result.
+It'll help us estimate and understand your general problem-solving, technical, and product skills - all in quick&dirty mode of a mini-POC.
 
-## Available Scripts
 
-In the project directory, you can run:
+## The brief
+We'd like to build a web app for browsing rockets launches from around the world. here is an example of an [app](https://go4liftoff.com/launches) that we want to create [launches app](https://go4liftoff.com/launches)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# The Requirements
+Let's create a new web app project with one page that contains a search bar and a list of launches.
+- List of all rocket launches in a past descending order starting today.
+  * Entries of the list should display
+    *  Name
+    *  Status (success/failure)
+    *  Mission description
+    *  Image
+    *  Copy to clipboard button
+  * Share button will copy the URL to the clipboard similarly as [Go4Liftoff](https://go4liftoff.com/launches) do.
+- Search - We'd like to allow the users to search after specific launches.
+- Future launches - the user will be able to toggle this button and present future launches instead of passed launches.
+- Bonus 1 - create pagination that will allow the user to jump forward and backward in time.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Stack
+At Melio we are working with React if you know React we will prefer that.
+In case you choose to work with react you take advantage of [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html) for getting a quick up and running front-end env.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Design
+You can use any design system you would like or build it on your own.
 
-### `npm run build`
+## Resources
+[API](https://thespacedevs.com/llapi)
+[Create react app](https://reactjs.org/docs/create-a-new-react-app.html)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Expectations
+Please commit your work to a repository and create a PR for your changes 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Communication
+If you have any questions - please don't hesitate- by phone or email.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
