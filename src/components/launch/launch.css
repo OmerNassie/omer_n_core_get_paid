@@ -1,0 +1,45 @@
+.left-launch {
+  align-items: center;
+  width: 40%;
+  display: flex;
+}
+.launch-image {
+  height: 70%;
+  width: 70%;
+  padding-left: 8px;
+}
+
+.right-launch {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  width: 60%;
+}
+
+.launch-container {
+  min-height: 320px;
+  display: flex;
+  max-width: 55%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 0.5rem !important;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.success{
+  color:green;
+}
+
+.failure{
+  color: red;
+}
+
+.footer{
+  margin-top: auto;
+}
+
+.description{
+  
+  line-height: 17px;
+}
